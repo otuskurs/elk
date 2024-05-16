@@ -55,7 +55,7 @@ filebeat.inputs:
   #  review: 1
 - type: filestream
   paths:
-    - /var/log/zabbix/* 
+    - /var/log/elasticsearch/* 
 
   enabled: true
   exclude_files: ['.gz$']
